@@ -1,0 +1,6 @@
+az vm create \
+    --resource-group myResourceGroup \
+    --name myVM \
+    --image win2016datacenter \
+    --admin-username azureuser \
+    --admin-password myPassword
